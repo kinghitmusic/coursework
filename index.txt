@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title><style>
+       *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 400px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/hero.png); */
+    align-items: end;
+    /* background-position: center; */
+    background-color: rgb(5, 207, 252);
+    color: rgb(17, 1, 1);
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero h1{
+   
+    text-align: center;
+    position: absolute;
+    top: 45px;
+    margin: auto;
+    
+}
+.hero button{
+    position: absolute;
+    bottom: 25px;
+    font-size: 25px;
+    padding: 20px;
+    border: 5px  solid white;
+    border-radius: 16px;
+    background-color: hwb(307 35% 5%);
+    color: white;
+}
+.hero button:hover{
+    color: rgb(9, 9, 9);
+    border: 5px  solid rgb(244, 14, 201);
+    
+}
+.hero h1:hover{
+    transform: scale(0.5);
+    transition: all;
+}
+nav{
+    height: 90px;
+    background: #f67ff6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav h1{
+    flex: 1;
+    margin-left: 25px;
+}
+nav h1:hover{
+    color:rgb(54, 17, 241);
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 25px;
+    list-style: none;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+nav ul li a:hover{
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
+}
+.active{
+    color: black;
+    border-bottom: 3px solid black;
+}
+.movies {
+    Display: grid;
+    Grid-template-columns: repeat(2, 1fr);
+    Gap: 115px;
+    margin-left: 27px;
+}
+
+.movie {
+    Background: #f8f1f1;
+    Padding: 25px;
+    Border-radius: 8px;
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 80px;
+}
+
+.movie img {
+    Width: 100%;
+    Height: auto;
+    Border-radius: 4px;
+}
+
+.movie h2 {
+    Font-size: 16px;
+    Margin: 10px 0;
+    Color: #444;
+}
+.whole{
+    margin-left: 100px;
+    margin-right: 100px;
+} 
+    </style>
+</head>
+<body bgcolor="#f0f0f0">
+    <div class="whole">
+    <div class="box">
+    <div class="nav">
+        <nav>
+
+        
+    <h1>Movie hub</h1>
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div class="hero">
+    <h1> Welcome to our Movie site</h1>
+    <button>JoinUsToday</button>
+</div>
+</div>
+<p>Welcome to movie hub, where you can discover and explore the latest in cinema! Join our community of film enthusiasts, dive into curated lists, and connect with others who share your passion for movies. Whether you’re looking for recommendations or want to share your own reviews, we’ve got something for every film lover!.</p>
+       <br>
+
+<img src="images/imagesrr (2).jpeg" style="height: 700px; width: 1080px; border-radius: 20px;">
+<h2>
+    MOVIE GENRES
+</h2>
+<div style="display: inline-block;">
+    <img src="images/images (1).jpeg" style="height: 264px;width: 264px; border-bottom-left-radius: 20px; border-top-left-radius: 20px;">
+    <img src="images/images (10).jpeg" style="height: 264px;width: 264px; ">
+    <img src="images/Ph 5.jpg" style="height: 264px;width: 264px; ">
+    <img src="images/Ph 1.jpg" style="height: 264px;width: 264px;border-bottom-right-radius: 20px; border-top-right-radius: 20px;">"
+</div>
+<h1>Top Five Movies</h1>
+<div class="movies" style="display: flex;">
+<div class=”movie”>
+<img src="images/Ph 2.jpg" alt=”Oppenheimer” style="height: 115px;width: 115px; ">
+<h2>1. Oppenheimer</h2>
+<button>Watch Now</button>
+</div>
+<div class=”movie”>
+<img src="images/images (9).jpeg" alt=”Dungeons & Dragons”  style="height: 115px;width: 115px; ">
+<h2>2. Dungeons&Dragons</h2>
+<button>Watch Now</button>
+</div>
+<div class=”movie”>
+    <img src="images/images (8).jpeg" alt=”Dungeons & Dragons”  style="height: 115px;width: 115px; ">
+    <h2>2. Dungeons</h2>
+    <button>Watch Now</button>
+    </div>
+        <div class=”movie”>
+            <img src="images/images (7).jpeg" alt=”Dungeons & Dragons”  style="height: 115px;width: 115px; ">
+            <h2>2. Dungeons&Dragons</h2>
+            <button>Watch Now</button>
+            </div>
+                        
+</div>
+<div class="movie" style="display: flex;">
+<div class=”movie”>
+<img src="images/images (6).jpeg" alt=”Godzilla Minus One”  style="height: 115px;width: 115px; ">
+<h2>3. Godzilla Minus</h2>
+<button>Watch Now</button>
+</div>
+<div class=”movie”>
+    <img src="images/images (4).jpeg" alt=”Godzilla Minus One”  style="height: 115px;width: 115px; ">
+    <h2>3. Godzilla Minus</h2>
+    <button>Watch Now</button>
+    </div>
+    <div class=”movie”>
+        <img src="images/images (3).jpeg" alt=”John Wick Chapter 4” style="height: 115px;width: 115px; ">
+        <h2>4. John Wick</h2>
+        <button> Watch Now</button>
+        </div>
+        <div class=”movie”>
+            <img src="images/Ph 3.jpg" alt=”John Wick Chapter 4” style="height: 115px;width: 115px; ">
+            <h2>4. John Wick: Chapter 4</h2>
+            <button>Watch Now</button>
+            </div>
+                
+</div>
+</div>
+</div>
+</div>
+<footer class="whole">
+    <h2>
+        Emergency links 
+    </h2>
+    Home<br>
+    Contact Us<br>
+    Address
+    
+    <h1>Click on Our News Letter To join us today</h1>
+    <div>
+        <label for="email">Subscribe to our News letter</label> <br> <input id="email" type="email" placeholder="email">
+        <br>
+        <input id="username" type="username" placeholder="usrname">
+        <br>
+        <input id ="contact" type="contact" placeholder="contact">
+        <br>
+        <button>SUBMIT</button><br>
+        <br>
+        &copy;NSUBUGA IBRAHIM/24/BIT/070/UMC
+    </div>
+</footer>
+</div>
+</body>
+</html>
